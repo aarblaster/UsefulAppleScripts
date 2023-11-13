@@ -1,0 +1,44 @@
+-- SafriToFirefox.scpt
+--
+-- A script to open the front Safari URL in Firefox.
+--
+-- Copyright Anthony Arblaster 2023
+-- 		MIT Licence
+-- 		Web: https://github.com/aarblaster/UsefulAppleScripts
+--
+-- Version 1.0
+--
+
+-- Get the frontmost tab URL in Safari
+tell application "Safari"
+	set safariURL to URL of front document
+end tell
+
+-- Check if Firefox is already running
+if application "Firefox" is running then
+	set firefoxWasRunning to true
+else
+	set firefoxWasRunning to false
+end if
+
+-- Activate Firefox
+tell application "Firefox" to activate
+
+-- Check if Firefox was not running initially and there are open windows
+if not firefoxWasRunning then
+	tell application "System Events"
+		tell process "Firefox"
+			if (count windows) is greater than 0 then
+				-- Close the front tab in Firefox
+				keystroke "w" using {command down}
+				delay 1 -- Add a delay to allow the tab to close
+			end if
+		end tell
+	end tell
+end if
+
+-- Open the URL in Firefox
+tell application "Firefox"
+	open location safariURL
+end tell
+
