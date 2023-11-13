@@ -1,8 +1,8 @@
 # UsefulAppleScripts
 
-![GitHub release](https://img.shields.io/github/release/techouse/alfred-stackoverflow.svg)
-![GitHub All Releases](https://img.shields.io/github/downloads/techouse/alfred-stackoverflow/total.svg)
-![GitHub](https://img.shields.io/github/license/techouse/alfred-stackoverflow.svg)
+![GitHub release](https://img.shields.io/github/release/aarblaster/UsefulAppleScripts.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/aarblaster/UsefulAppleScripts/total.svg)
+![GitHub](https://img.shields.io/github/license/aarblaster/UsefulAppleScripts.svg)
 
  A collection of Useful Applescripts to make MacOS life better.
  
