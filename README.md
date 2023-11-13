@@ -3,7 +3,8 @@
  
  ## About
  Some of these specifically integrate with other software and others manipulate the OS.  
- These are mostly created by cobbling together bits and pieces from other scripts and finding the thing that works best for my use case.
+ These are mostly created by cobbling together bits and pieces from other scripts and finding the thing that works best for my use case.   
+ Lots of these are quite simple but maybe they will solve a problem for someone else. 
  
  ## Directory
  ### BarTender
