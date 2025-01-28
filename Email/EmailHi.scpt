@@ -4,9 +4,13 @@
 -- Get the fist name of people in the email ‘To’ field. 
 -- With variants for Mail.app and MS Outlook.
 -- 
--- Copyright Anthony Arblaster 2023
--- 		MIT Licence
--- 		Web: https://github.com/aarblaster/UsefulAppleScripts
+-- Copyright Anthony Arblaster 2023.
+--    – Web: https://codebyanthony.com
+--    – Mastodon: https://mastodonapp.uk/@aarblaster
+--    – GitHub: https://github.com/aarblaster
+--
+-- MIT Licence
+-- Repo: https://github.com/aarblaster/UsefulAppleScripts
 --
 -- Version 3.0
 --

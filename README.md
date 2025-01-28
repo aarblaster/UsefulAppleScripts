@@ -26,9 +26,10 @@
  
  
  ### URLs
- * `SafariToFirefox.scpt` opens the frontmost safari tab in firefox. Personally I trigger this with [Keyboard Maestro](https://keyboardmaestro.com)   
+ * `SafariToFirefox.scpt` opens the frontmost safari tab in Firefox. Personally I trigger this with [Keyboard Maestro](https://keyboardmaestro.com) using a string trigger.
+ * `SafariToDuckDuckGo.scpt` opens the frontmost Safari tab in DuckDuckGo. Again I trigger with Keyboard Maestro. You could modify this for any app you fancy. The main difference with the Firefox script is that duck duck go has fewer weird tab opening problems. Hense there is a delay built into the firefox script.
+ * `URLsToProfile.scpt` uses Keyboard Maestro to open specified URLs in the Safari profile of your choosing.
  
- ## Thanks
+  ## Thanks
  I'm not really amazing at any of this coding business, and I have only been able to work out these automations because of the excellent communities and software that others have made. I hope you find these useful.   
  
- If you do find them useful – give me a shout. I'd love to hear about that.

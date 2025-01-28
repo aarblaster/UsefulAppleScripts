@@ -3,9 +3,13 @@
 -- A simple script to return `TRUE` when laptop screen is the only one.
 -- Useful with Bartender Profiles
 --
--- Copyright Anthony Arblaster 2023
--- 		MIT Licence
--- 		Web: https://github.com/aarblaster/UsefulAppleScripts
+-- Copyright Anthony Arblaster 2023.
+--    – Web: https://codebyanthony.com
+--    – Mastodon: https://mastodonapp.uk/@aarblaster
+--    – GitHub: https://github.com/aarblaster
+--
+-- MIT Licence
+-- Repo: https://github.com/aarblaster/UsefulAppleScripts
 --
 -- Version 1.0
 --

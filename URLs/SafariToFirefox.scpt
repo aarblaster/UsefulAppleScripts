@@ -2,12 +2,21 @@
 --
 -- A script to open the front Safari URL in Firefox.
 --
--- Copyright Anthony Arblaster 2023
--- 		MIT Licence
--- 		Web: https://github.com/aarblaster/UsefulAppleScripts
+-- Copyright Anthony Arblaster 2023.
+--    – Web: https://codebyanthony.com
+--    – Mastodon: https://mastodonapp.uk/@aarblaster
+--    – GitHub: https://github.com/aarblaster
 --
--- Version 1.0
+-- MIT Licence
+-- Repo: https://github.com/aarblaster/UsefulAppleScripts
 --
+-- Version 1.1
+--
+
+-- A Script to open the front tab in Safari in the Firefox browser.
+-- Requires that both browsers be installed.
+-- Trigger this script using any method you choose.
+-- I personally use Keyboard Maestro.
 
 -- Get the frontmost tab URL in Safari
 tell application "Safari"
