@@ -1,0 +1,17 @@
+# .gitignore for UsefulAppleScripts Repo
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# General Development Excludes
+*.log
+*.tmp
+*.bak
+*.swp
+.vscode/
+.idea/
+node_modules/
+*.pyc
+__pycache__/
